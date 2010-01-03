@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" skipfailedinvocationCounts="false" verbose="1" name="Failed suite [com.pillartech.raffle.domain [1.0-SNAPSHOT]]" junit="false" annotations="JDK" data-provider-thread-count="10">
+  <test name="com.pillartech.raffle.domain.RaffleTest(failed)" junit="false" annotations="JDK">
+    <classes>
+      <class name="com.pillartech.raffle.domain.RaffleTest">
+        <methods>
+          <include name="test_pick_winners_draws_a_valid_set"/>
+          <include name="test_pick_and_remove_random_entry_should_remove_the_entry"/>
+          <include name="test_entries_smaller_than_winners_draws_everyone"/>
+          <include name="test_entries_same_size_as_winners_draws_everyone"/>
+          <include name="test_add_duplicate_entry"/>
+          <include name="test_add_new_entry"/>
+          <include name="test_pick_winners_draws_the_correct_amount"/>
+          <include name="test_add_entry_to_null_set_works"/>
+          <include name="setup_entries_and_raffle"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

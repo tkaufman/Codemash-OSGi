@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.param,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.param td,table.param th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.param th {vertical-align:bottom}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.param td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.param tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">com.pillartech.raffle.persistence.internal.RaffleDAOImplTest</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">11</td><td class="numi">0</td><td class="numi">0.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<a id="summary"></a>
+<table cellspacing=0 cellpadding=0 class="passed">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Time<br/>(Msecs)</th></tr>
+<tr><th colspan="4">com.pillartech.raffle.persistence.internal.RaffleDAOImplTest &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">com.pillartech.raffle.persistence.internal.RaffleDAOImplTest<br>"com.pillartech.raffle.persistence.internal.RaffleDAOImplTest"<td><a href="#m1"><b>springTestContextPrepareTestInstance</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr><th colspan="4">com.pillartech.raffle.persistence.internal.RaffleDAOImplTest &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="2">com.pillartech.raffle.persistence.internal.RaffleDAOImplTest<br>"com.pillartech.raffle.persistence.internal.RaffleDAOImplTest"<td><a href="#m2"><b>create_raffle</b>  </a></td><td class="numi">11</td><td class="numi">164</td></tr><tr class="skippedodd"><td><a href="#m3"><b>springTestContextBeforeTestMethod</b>  </a></td><td class="numi">11</td><td class="numi">166</td></tr>
+<tr><th colspan="4">com.pillartech.raffle.persistence.internal.RaffleDAOImplTest &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="11">com.pillartech.raffle.persistence.internal.RaffleDAOImplTest<br>"com.pillartech.raffle.persistence.internal.RaffleDAOImplTest"<td><a href="#m4"><b>test_create_raffle_adds_a_row</b>  </a></td><td class="numi">1</td><td class="numi">5</td></tr><tr class="skippedodd"><td><a href="#m5"><b>test_create_raffle_adds_child_entity</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m6"><b>test_create_raffle_saves_the_values</b>  </a></td><td class="numi">1</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m7"><b>test_delete_raffle_also_deletes_entities</b>  </a></td><td class="numi">1</td><td class="numi">26</td></tr><tr class="skippedodd"><td><a href="#m8"><b>test_delete_raffle_leaves_no_trace</b>  </a></td><td class="numi">1</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m9"><b>test_delete_raffle_removes_a_row</b>  </a></td><td class="numi">1</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m10"><b>test_find_all_returns_a_the_correct_row</b>  </a></td><td class="numi">1</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m11"><b>test_find_all_returns_multiples</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m12"><b>test_find_all_returns_null_with_nothing_in_the_db</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m13"><b>test_update_raffle_leaves_num_of_rows</b>  </a></td><td class="numi">1</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m14"><b>test_update_raffle_saves_the_values</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr>
+</table>
+<h1>com.pillartech.raffle.persistence.internal.RaffleDAOImplTest</h1>
+<a id="m1"></a><h2>com.pillartech.raffle.persistence.internal.RaffleDAOImplTest:springTestContextPrepareTestInstance</h2>
+<div style="padding-left:3em">
+<p>Failed to load ApplicationContext</p>
+org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:201)
+<br/>at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+<br/>at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+<br/>at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:255)
+<br/>at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextPrepareTestInstance(AbstractTestNGSpringContextTests.java:117)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+<br/>at java.lang.reflect.Method.invoke(Method.java:597)
+<br/>at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:644)
+<br/>at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:443)
+<br/>at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:160)
+<br/>at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:90)
+<br/>at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:183)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:115)
+<br/>at org.testng.TestRunner.runWorkers(TestRunner.java:908)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:617)
+<br/>at org.testng.TestRunner.run(TestRunner.java:498)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:329)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:324)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:296)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:201)
+<br/>at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:915)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:879)
+<br/>at org.testng.TestNG.run(TestNG.java:787)
+<br/>at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:75)
+<br/>at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:127)
+<br/>1 lines not shown
+<p>Caused by Cannot find class [org.apache.commons.dbcp.BasicDataSource] for bean with name 'myDataSource' defined in class path resource [META-INF/spring/persistence-context.xml]; nested exception is java.lang.ClassNotFoundException: org.apache.commons.dbcp.BasicDataSource</p>
+org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1141)
+<br/>at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:524)
+<br/>at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1177)
+<br/>at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:758)
+<br/>at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:422)
+<br/>at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:728)
+<br/>at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:380)
+<br/>at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:84)
+<br/>at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:42)
+<br/>at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:173)
+<br/>at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:197)
+<br/>at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+<br/>at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+<br/>at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:255)
+<br/>at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextPrepareTestInstance(AbstractTestNGSpringContextTests.java:117)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+<br/>at java.lang.reflect.Method.invoke(Method.java:597)
+<br/>at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:644)
+<br/>at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:443)
+<br/>at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:160)
+<br/>at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:90)
+<br/>at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:183)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:115)
+<br/>at org.testng.TestRunner.runWorkers(TestRunner.java:908)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:617)
+<br/>at org.testng.TestRunner.run(TestRunner.java:498)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:329)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:324)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:296)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:201)
+<br/>at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:915)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:879)
+<br/>at org.testng.TestNG.run(TestNG.java:787)
+<br/>at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:75)
+<br/>at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:127)
+<br/>1 lines not shown
+<p>Caused by org.apache.commons.dbcp.BasicDataSource</p>
+java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+<br/>at java.security.AccessController.doPrivileged(Native Method)
+<br/>at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+<br/>at java.lang.ClassLoader.loadClass(ClassLoader.java:315)
+<br/>at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:330)
+<br/>at java.lang.ClassLoader.loadClass(ClassLoader.java:250)
+<br/>at org.springframework.util.ClassUtils.forName(ClassUtils.java:211)
+<br/>at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:385)
+<br/>at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1138)
+<br/>at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:524)
+<br/>at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1177)
+<br/>at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:758)
+<br/>at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:422)
+<br/>at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:728)
+<br/>at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:380)
+<br/>at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:84)
+<br/>at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:42)
+<br/>at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:173)
+<br/>at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:197)
+<br/>at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+<br/>at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+<br/>at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:255)
+<br/>at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextPrepareTestInstance(AbstractTestNGSpringContextTests.java:117)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+<br/>at java.lang.reflect.Method.invoke(Method.java:597)
+<br/>at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:644)
+<br/>at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:443)
+<br/>at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:160)
+<br/>at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:90)
+<br/>at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:183)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:115)
+<br/>at org.testng.TestRunner.runWorkers(TestRunner.java:908)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:617)
+<br/>at org.testng.TestRunner.run(TestRunner.java:498)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:329)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:324)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:296)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:201)
+<br/>at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:915)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:879)
+<br/>at org.testng.TestNG.run(TestNG.java:787)
+<br/>at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:75)
+<br/>at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:127)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>com.pillartech.raffle.persistence.internal.RaffleDAOImplTest:create_raffle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m3"></a><h2>com.pillartech.raffle.persistence.internal.RaffleDAOImplTest:springTestContextBeforeTestMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>com.pillartech.raffle.persistence.internal.RaffleDAOImplTest:test_create_raffle_adds_a_row</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>com.pillartech.raffle.persistence.internal.RaffleDAOImplTest:test_create_raffle_adds_child_entity</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m6"></a><h2>com.pillartech.raffle.persistence.internal.RaffleDAOImplTest:test_create_raffle_saves_the_values</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m7"></a><h2>com.pillartech.raffle.persistence.internal.RaffleDAOImplTest:test_delete_raffle_also_deletes_entities</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m8"></a><h2>com.pillartech.raffle.persistence.internal.RaffleDAOImplTest:test_delete_raffle_leaves_no_trace</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m9"></a><h2>com.pillartech.raffle.persistence.internal.RaffleDAOImplTest:test_delete_raffle_removes_a_row</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m10"></a><h2>com.pillartech.raffle.persistence.internal.RaffleDAOImplTest:test_find_all_returns_a_the_correct_row</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m11"></a><h2>com.pillartech.raffle.persistence.internal.RaffleDAOImplTest:test_find_all_returns_multiples</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m12"></a><h2>com.pillartech.raffle.persistence.internal.RaffleDAOImplTest:test_find_all_returns_null_with_nothing_in_the_db</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m13"></a><h2>com.pillartech.raffle.persistence.internal.RaffleDAOImplTest:test_update_raffle_leaves_num_of_rows</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m14"></a><h2>com.pillartech.raffle.persistence.internal.RaffleDAOImplTest:test_update_raffle_saves_the_values</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

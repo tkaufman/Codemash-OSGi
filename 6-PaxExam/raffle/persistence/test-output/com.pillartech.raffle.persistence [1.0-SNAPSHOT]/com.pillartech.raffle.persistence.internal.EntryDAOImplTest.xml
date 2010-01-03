@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pillartech.raffle.persistence.internal.EntryDAOImplTest" failures="0" tests="10" time="0.615" errors="0">
+  <properties/>
+  <testcase name="@BeforeClass springTestContextPrepareTestInstance" time="0.0" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <failure type="java.lang.IllegalStateException" message="Failed to load ApplicationContext">
+      <![CDATA[java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:201)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:255)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextPrepareTestInstance(AbstractTestNGSpringContextTests.java:117)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:480)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory$1.run(AbstractAutowireCapableBeanFactory.java:409)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:380)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:264)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:261)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:185)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:164)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:423)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:728)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:380)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:84)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:42)
+	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:173)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:197)
+	... 26 more
+	at java.lang.Class.getGenericInterfaces(Class.java:794)
+	at org.springframework.core.GenericTypeResolver.getTypeVariableMap(GenericTypeResolver.java:164)
+	at org.springframework.core.GenericTypeResolver.resolveReturnType(GenericTypeResolver.java:101)
+	at org.springframework.beans.GenericTypeAwarePropertyDescriptor.getPropertyType(GenericTypeAwarePropertyDescriptor.java:88)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:138)
+	at org.springframework.beans.BeanWrapperImpl.convertForProperty(BeanWrapperImpl.java:386)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.convertForProperty(AbstractAutowireCapableBeanFactory.java:1289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1010)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:472)
+	... 41 more
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="@BeforeMethod springTestContextBeforeTestMethod" time="0.0" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod create_entry" time="0.0" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod springTestContextBeforeTestMethod" time="0.0" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod create_entry" time="0.0" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod springTestContextBeforeTestMethod" time="0.0" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod create_entry" time="0.0" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod springTestContextBeforeTestMethod" time="0.0" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod create_entry" time="0.0" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod springTestContextBeforeTestMethod" time="0.0" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod create_entry" time="0.0" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod springTestContextBeforeTestMethod" time="0.0" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod create_entry" time="0.0" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod springTestContextBeforeTestMethod" time="0.0" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod create_entry" time="0.0" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod springTestContextBeforeTestMethod" time="0.0" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod create_entry" time="0.0" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod springTestContextBeforeTestMethod" time="0.0" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod create_entry" time="0.0" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod springTestContextBeforeTestMethod" time="0.0" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod create_entry" time="0.0" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="test_create_entry_adds_a_row" time="0.0060" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="test_create_entry_populates_all_fields" time="0.0020" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="test_create_entry_populates_the_id" time="0.0020" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="test_delete_entry_leaves_no_trace" time="0.0010" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="test_delete_entry_removes_a_row" time="0.0010" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="test_find_all_returns_a_the_correct_row" time="0.0010" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="test_find_all_returns_multiples" time="0.0020" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="test_find_all_returns_null_with_nothing_in_the_db" time="0.0010" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="test_update_changes_the_row" time="0.0020" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="test_update_leaves_the_same_number" time="0.0020" classname="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+    <skipped/>
+  </testcase>
+</testsuite>

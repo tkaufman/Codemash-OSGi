@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Export-Package: com.pillartech.raffle.persistence;uses:="com.pillartec
+ h.raffle.domain";version="1.0.0.SNAPSHOT"
+Private-Package: com.pillartech.raffle.persistence.internal
+Ignore-Package: com.pillartech.raffle.persistence.internal
+Built-By: toddkaufman
+Tool: Bnd-0.0.255
+Bundle-Name: com.pillartech.raffle.persistence
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_17
+Bundle-Version: 1.0.0.SNAPSHOT
+Bnd-LastModified: 1262540293713
+Spring-Context: META-INF/spring/*.xml;publish-context:=false
+Bundle-ManifestVersion: 2
+Bundle-Description: Generated using Pax-Construct
+Import-Package: com.mysql.jdbc,com.pillartech.raffle.domain,com.pillar
+ tech.raffle.persistence;version="1.0.0.SNAPSHOT",javax.sql,org.apache
+ .commons.dbcp,org.springframework.beans.factory.annotation,org.spring
+ framework.jdbc.core.simple,org.springframework.jdbc.datasource,org.sp
+ ringframework.transaction
+Bundle-SymbolicName: com.pillartech.raffle.persistence
+

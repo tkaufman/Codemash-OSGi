@@ -1,0 +1,32 @@
+<classpath>
+  <classpathentry kind="src" path="." including="plugin.xml|plugin.properties|icons/**" excluding="**/*.java"/>
+  <classpathentry kind="src" path="src/main/java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="src" path="src/test/java" output="target/test-classes"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+  <classpathentry kind="var" path="M2_REPO/com/mysql/jdbc/com.springsource.com.mysql.jdbc/5.1.6/com.springsource.com.mysql.jdbc-5.1.6.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/sun/enterprise/com.springsource.com.sun.enterprise.loader/1.0.0/com.springsource.com.sun.enterprise.loader-1.0.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/el/com.springsource.javax.el/2.1.0/com.springsource.javax.el-2.1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/persistence/com.springsource.javax.persistence/1.0.0/com.springsource.javax.persistence-1.0.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/servlet/com.springsource.javax.servlet/2.4.0/com.springsource.javax.servlet-2.4.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/transaction/com.springsource.javax.transaction/1.1.0/com.springsource.javax.transaction-1.1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/oracle/oc4j/com.springsource.oracle.classloader/10.1.3.1/com.springsource.oracle.classloader-10.1.3.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/aopalliance/com.springsource.org.aopalliance/1.0.0/com.springsource.org.aopalliance-1.0.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/commons/com.springsource.org.apache.commons.dbcp/1.2.2.osgi/com.springsource.org.apache.commons.dbcp-1.2.2.osgi.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/commons/com.springsource.org.apache.commons.logging/1.1.1/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/commons/com.springsource.org.apache.commons.pool/1.5.3/com.springsource.org.apache.commons.pool-1.5.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-lang/commons-lang/2.4/commons-lang-2.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/junit/junit/3.8.1/junit-3.8.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/org.springframework.aop/2.5.6.SEC01/org.springframework.aop-2.5.6.SEC01.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/org.springframework.beans/2.5.6.SEC01/org.springframework.beans-2.5.6.SEC01.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/org.springframework.context/2.5.6.SEC01/org.springframework.context-2.5.6.SEC01.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/org.springframework.core/2.5.6.SEC01/org.springframework.core-2.5.6.SEC01.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/org.springframework.jdbc/2.5.6.SEC01/org.springframework.jdbc-2.5.6.SEC01.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/org.springframework.test/2.5.6.SEC01/org.springframework.test-2.5.6.SEC01.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/org.springframework.transaction/2.5.6.SEC01/org.springframework.transaction-2.5.6.SEC01.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/osgi/osgi_R4_compendium/1.0/osgi_R4_compendium-1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/osgi/osgi_R4_core/1.0/osgi_R4_core-1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/testng/testng/5.9/testng-5.9-jdk15.jar"/>
+</classpath>

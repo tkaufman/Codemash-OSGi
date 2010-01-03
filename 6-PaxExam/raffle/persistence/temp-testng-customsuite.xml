@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="com.pillartech.raffle.persistence [1.0-SNAPSHOT]" parallel="">
+  <test verbose="2" name="com.pillartech.raffle.persistence.internal.EntryDAOImplTest" annotations="JDK">
+    <classes>
+      <class name="com.pillartech.raffle.persistence.internal.EntryDAOImplTest"/>
+    </classes>
+  </test>
+</suite>

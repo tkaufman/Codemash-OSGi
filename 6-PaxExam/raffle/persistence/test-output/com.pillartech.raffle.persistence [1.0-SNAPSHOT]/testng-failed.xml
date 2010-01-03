@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" skipfailedinvocationCounts="false" verbose="1" name="Failed suite [com.pillartech.raffle.persistence [1.0-SNAPSHOT]]" junit="false" annotations="JDK" data-provider-thread-count="10">
+  <test name="com.pillartech.raffle.persistence.internal.EntryDAOImplTest(failed)" junit="false" annotations="JDK">
+    <classes>
+      <class name="com.pillartech.raffle.persistence.internal.EntryDAOImplTest">
+        <methods>
+          <include name="test_create_entry_populates_the_id"/>
+          <include name="test_update_leaves_the_same_number"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="test_create_entry_adds_a_row"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="test_find_all_returns_multiples"/>
+          <include name="test_update_changes_the_row"/>
+          <include name="test_delete_entry_removes_a_row"/>
+          <include name="test_find_all_returns_a_the_correct_row"/>
+          <include name="test_find_all_returns_null_with_nothing_in_the_db"/>
+          <include name="test_create_entry_populates_all_fields"/>
+          <include name="test_delete_entry_leaves_no_trace"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+      "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.pillartech.raffle.domain">
+
+	<class name="Entry" table="entries">
+
+		<id name="id">
+			<generator class="native" />
+		</id>
+
+		<property name="name" />
+		<property name="email" />
+
+		<property name="created" type="date" not-null="true" update="false" />
+
+		<many-to-one name="raffle" column="raffle_id" not-null="true"/>
+	</class>
+
+</hibernate-mapping>

@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Export-Package: com.pillartech.raffle.service;version="1.0.0.SNAPSHOT"
+Private-Package: com.pillartech.raffle.service.internal
+Ignore-Package: com.pillartech.raffle.service.internal
+Built-By: toddkaufman
+Tool: Bnd-0.0.255
+Bundle-Name: com.pillartech.raffle.service
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_17
+Bundle-Version: 1.0.0.SNAPSHOT
+Bnd-LastModified: 1262539007698
+Spring-Context: META-INF/spring/*.xml;publish-context:=false
+Bundle-ManifestVersion: 2
+Bundle-Description: Generated using Pax-Construct
+Import-Package: com.pillartech.raffle.domain,com.pillartech.raffle.ser
+ vice;version="1.0.0.SNAPSHOT"
+Bundle-SymbolicName: com.pillartech.raffle.service
+

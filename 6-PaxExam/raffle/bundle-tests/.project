@@ -1,0 +1,21 @@
+<projectDescription>
+  <name>bundle-tests</name>
+  <comment>Generated using Pax-Construct</comment>
+  <projects>
+    <project>domain</project>
+    <project>persistence</project>
+    <project>service</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+    <buildCommand>
+      <name>org.maven.ide.eclipse.maven2Builder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.maven.ide.eclipse.maven2Nature</nature>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>

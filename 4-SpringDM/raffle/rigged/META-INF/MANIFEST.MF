@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Private-Package: com.pillartech.raffle.rigged.internal
+Ignore-Package: com.pillartech.raffle.rigged.internal
+Built-By: toddkaufman
+Tool: Bnd-0.0.255
+Bundle-Name: com.pillartech.raffle.rigged
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_17
+Bundle-Version: 1.0.0.SNAPSHOT
+Bnd-LastModified: 1262539008189
+Spring-Context: META-INF/spring/*.xml;publish-context:=false
+Bundle-ManifestVersion: 2
+Bundle-Description: Generated using Pax-Construct
+Import-Package: com.pillartech.raffle.service
+Bundle-SymbolicName: com.pillartech.raffle.rigged
+

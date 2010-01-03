@@ -1,0 +1,60 @@
+!SESSION 2010-01-03 12:19:08.150 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_17
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=carbon, NL=en_US
+Command-line arguments:  -console -configuration equinox
+
+!ENTRY org.eclipse.osgi 4 0 2010-01-03 12:19:09.197
+!MESSAGE Error starting bundle: initial@reference:file:../bundles/com.springsource.slf4j.log4j_1.5.0.jar/
+!STACK 0
+org.osgi.framework.BundleException: A fragment bundle cannot be started: com.springsource.slf4j.log4j_1.5.0 [5]
+	at org.eclipse.osgi.framework.internal.core.BundleFragment.startWorker(BundleFragment.java:228)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startBundle(EclipseStarter.java:1128)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startBundles(EclipseStarter.java:1121)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.loadBasicBundles(EclipseStarter.java:640)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:301)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:175)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.main(EclipseStarter.java:150)
+
+!ENTRY org.eclipse.osgi 4 0 2010-01-03 12:19:09.201
+!MESSAGE Error starting bundle: initial@reference:file:../bundles/com.pillartech.raffle.spring-log_1.0.0.SNAPSHOT.jar/
+!STACK 0
+org.osgi.framework.BundleException: A fragment bundle cannot be started: com.pillartech.raffle.spring-log_1.0.0.SNAPSHOT [47]
+	at org.eclipse.osgi.framework.internal.core.BundleFragment.startWorker(BundleFragment.java:228)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startBundle(EclipseStarter.java:1128)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startBundles(EclipseStarter.java:1121)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.loadBasicBundles(EclipseStarter.java:640)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:301)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:175)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.main(EclipseStarter.java:150)
+
+!ENTRY com.springsource.javax.servlet.jsp 4 0 2010-01-03 12:19:09.397
+!MESSAGE 
+!STACK 0
+org.osgi.framework.BundleException: The bundle could not be resolved. Reason: Missing Constraint: Import-Package: javax.el; version="[1.0.0,2.0.0)"
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getResolverError(AbstractBundle.java:1313)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getResolutionFailureException(AbstractBundle.java:1297)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:309)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:370)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1068)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:557)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:464)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:248)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:445)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:227)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+!ENTRY org.eclipse.osgi 4 0 2010-01-03 12:19:09.448
+!MESSAGE Bundle com.springsource.slf4j.log4j_1.5.0 [5] is not active.
+
+!ENTRY org.eclipse.osgi 4 0 2010-01-03 12:19:09.448
+!MESSAGE Bundle initial@reference:file:../bundles/com.springsource.javax.servlet.jsp_2.1.0.jar/ was not resolved.
+
+!ENTRY org.eclipse.osgi 4 0 2010-01-03 12:19:09.449
+!MESSAGE Bundle initial@reference:file:../bundles/slf4j.log4j12_1.5.2.jar/ was not resolved.
+
+!ENTRY org.eclipse.osgi 4 0 2010-01-03 12:19:09.449
+!MESSAGE Bundle com.pillartech.raffle.spring-log_1.0.0.SNAPSHOT [47] is not active.

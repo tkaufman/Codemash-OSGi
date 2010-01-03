@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Export-Package: com.pillartech.raffle.domain;version="1.0.0.SNAPSHOT"
+Private-Package: org.apache.commons.lang,org.apache.commons.lang.build
+ er,org.apache.commons.lang.enum,org.apache.commons.lang.enums,org.apa
+ che.commons.lang.exception,org.apache.commons.lang.math,org.apache.co
+ mmons.lang.mutable,org.apache.commons.lang.text,org.apache.commons.la
+ ng.time
+Bundle-ClassPath: .,target/pax-eclipse,target/pax-eclipse/commons-lang
+ -2.4.jar
+Built-By: toddkaufman
+Tool: Bnd-0.0.255
+Bundle-Name: com.pillartech.raffle.domain
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_17
+Bundle-Version: 1.0.0.SNAPSHOT
+Bnd-LastModified: 1262539747135
+Bundle-ManifestVersion: 2
+Bundle-Description: Generated using Pax-Construct
+Import-Package: com.pillartech.raffle.domain;version="1.0.0.SNAPSHOT"
+Embed-Dependency: commons-lang;groupId=commons-lang;inline=false
+Bundle-SymbolicName: com.pillartech.raffle.domain
+

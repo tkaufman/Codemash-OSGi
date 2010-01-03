@@ -1,0 +1,12 @@
+#-----------------------------------------------------------------
+# Use this file to add customized Bnd instructions for the bundle
+#-----------------------------------------------------------------
+
+Spring-Context: META-INF/spring/*.xml;publish-context:=false
+
+Import-Package: *,\
+  org.springframework.transaction,\
+  org.springframework.aop,\
+  org.springframework.aop.framework,\
+  org.aopalliance.aop,\
+  com.mysql.jdbc

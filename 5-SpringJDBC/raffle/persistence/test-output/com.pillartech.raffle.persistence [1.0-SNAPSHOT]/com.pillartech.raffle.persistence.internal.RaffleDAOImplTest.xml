@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest" failures="0" tests="11" time="0.612" errors="0">
+  <properties/>
+  <testcase name="@BeforeClass springTestContextPrepareTestInstance" time="0.0" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <failure type="java.lang.IllegalStateException" message="Failed to load ApplicationContext">
+      <![CDATA[java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:201)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:255)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextPrepareTestInstance(AbstractTestNGSpringContextTests.java:117)
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.apache.commons.dbcp.BasicDataSource] for bean with name 'myDataSource' defined in class path resource [META-INF/spring/persistence-context.xml]; nested exception is java.lang.ClassNotFoundException: org.apache.commons.dbcp.BasicDataSource
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1141)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:758)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:422)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:728)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:380)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:84)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:42)
+	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:173)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:197)
+	... 26 more
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.dbcp.BasicDataSource
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:315)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:330)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:250)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:211)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:385)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1138)
+	... 36 more
+... Removed 22 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="@BeforeMethod springTestContextBeforeTestMethod" time="0.0" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod create_raffle" time="0.0" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod springTestContextBeforeTestMethod" time="0.0" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod create_raffle" time="0.0" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod springTestContextBeforeTestMethod" time="0.0" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod create_raffle" time="0.0" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod springTestContextBeforeTestMethod" time="0.0" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod create_raffle" time="0.0" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod springTestContextBeforeTestMethod" time="0.0" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod create_raffle" time="0.0" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod springTestContextBeforeTestMethod" time="0.0" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod create_raffle" time="0.0" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod springTestContextBeforeTestMethod" time="0.0" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod create_raffle" time="0.0" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod springTestContextBeforeTestMethod" time="0.0" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod create_raffle" time="0.0" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod springTestContextBeforeTestMethod" time="0.0" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod create_raffle" time="0.0" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod springTestContextBeforeTestMethod" time="0.0" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod create_raffle" time="0.0" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod springTestContextBeforeTestMethod" time="0.0" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod create_raffle" time="0.0" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="test_create_raffle_adds_a_row" time="0.0050" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="test_create_raffle_adds_child_entity" time="0.0010" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="test_create_raffle_saves_the_values" time="0.0020" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="test_delete_raffle_also_deletes_entities" time="0.026" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="test_delete_raffle_leaves_no_trace" time="0.0020" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="test_delete_raffle_removes_a_row" time="0.0020" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="test_find_all_returns_a_the_correct_row" time="0.0020" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="test_find_all_returns_multiples" time="0.0010" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="test_find_all_returns_null_with_nothing_in_the_db" time="0.0010" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="test_update_raffle_leaves_num_of_rows" time="0.0020" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+  <testcase name="test_update_raffle_saves_the_values" time="0.0010" classname="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+    <skipped/>
+  </testcase>
+</testsuite>
