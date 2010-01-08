@@ -1,0 +1,6 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.pillartech.SuperSimple
+Bundle-Name: SuperSimple
+Bundle-Version: 1.0.0
+Bundle-Activator: com.pillartech.SuperSimple
+Import-Package: org.osgi.framework

@@ -1,0 +1,17 @@
+#-----------------------------------------------------------------
+# Use this file to add customized Bnd instructions for the bundle
+#-----------------------------------------------------------------
+
+Bundle-ClassPath: .,WEB-INF/classes
+Import-Package: *,\
+  org.springframework.osgi.web.context.support,\
+  org.springframework.context.support,\
+  org.springframework.web.context,\
+  org.springframework.web.servlet,\
+  org.springframework.web.servlet.mvc,\
+  org.springframework.web.servlet.mvc.annotation,\
+  org.springframework.web.servlet.mvc.support,\
+  org.springframework.web.servlet.view,\
+  org.springframework.ui
+Require-Bundle: org.springframework.osgi.jstl.osgi
+Web-ContextPath: raffle

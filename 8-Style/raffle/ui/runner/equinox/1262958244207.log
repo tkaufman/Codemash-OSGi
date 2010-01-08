@@ -1,0 +1,9 @@
+!SESSION 2010-01-08 08:44:03.832 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_17
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=carbon, NL=en_US
+Command-line arguments:  -console -configuration equinox
+
+!ENTRY org.eclipse.osgi 4 0 2010-01-08 08:44:04.946
+!MESSAGE Bundle initial@reference:file:../bundles/com.pillartech.raffle.ui_1.0.0.SNAPSHOT.jar/ was not resolved.

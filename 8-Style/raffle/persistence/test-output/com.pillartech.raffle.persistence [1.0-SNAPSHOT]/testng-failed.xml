@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" skipfailedinvocationCounts="false" verbose="1" name="Failed suite [com.pillartech.raffle.persistence [1.0-SNAPSHOT]]" junit="false" annotations="JDK" data-provider-thread-count="10">
+  <test name="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest(failed)" junit="false" annotations="JDK">
+    <classes>
+      <class name="com.pillartech.raffle.persistence.internal.RaffleDAOImplTest">
+        <methods>
+          <include name="test_delete_raffle_leaves_no_trace"/>
+          <include name="test_update_raffle_saves_the_values"/>
+          <include name="test_create_raffle_adds_child_entity"/>
+          <include name="test_find_all_returns_multiples"/>
+          <include name="test_delete_raffle_removes_a_row"/>
+          <include name="test_find_all_returns_a_the_correct_row"/>
+          <include name="test_create_raffle_saves_the_values"/>
+          <include name="test_delete_raffle_also_deletes_entities"/>
+          <include name="test_update_raffle_leaves_num_of_rows"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="test_create_raffle_adds_a_row"/>
+          <include name="test_find_all_returns_null_with_nothing_in_the_db"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

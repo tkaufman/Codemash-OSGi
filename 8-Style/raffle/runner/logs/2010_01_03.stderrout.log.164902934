@@ -1,0 +1,14 @@
+Exception in thread "Jetty Start Thread" java.lang.RuntimeException: Cannot start Jetty 6.1.x
+	at org.springframework.osgi.web.jetty.internal.Activator$1.run(Activator.java:135)
+	at java.lang.Thread.run(Thread.java:637)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind(Native Method)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:119)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:59)
+	at org.mortbay.jetty.nio.SelectChannelConnector.open(SelectChannelConnector.java:216)
+	at org.mortbay.jetty.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:315)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.Server.doStart(Server.java:235)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.springframework.osgi.web.jetty.internal.Activator$1.run(Activator.java:122)
+	... 1 more
